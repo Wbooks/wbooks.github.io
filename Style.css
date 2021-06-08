@@ -73,20 +73,20 @@
   }
   
   section#home {
-    background: url('../images/book5.jpg') no-repeat center center/cover;;
+    background: url('https://user-images.githubusercontent.com/85494225/121175074-f18b9280-c85a-11eb-8ac3-24e7c6914d94.jpg') no-repeat center center/cover;;
   }
   
   section#Subjects {
-    background: url('../images/book7.jpg') no-repeat center center/cover;;
+    background: url('https://user-images.githubusercontent.com/85494225/121175078-f2242900-c85a-11eb-913c-4dceb95950c0.jpg') no-repeat center center/cover;;
   }
   
   section#Source {
-    background: url('../images/book4.jpg') no-repeat center center/cover;;
+    background: url('https://user-images.githubusercontent.com/85494225/121175064-ee90a200-c85a-11eb-8ae6-145ffbabd4cf.jpg') no-repeat center center/cover;;
 }
 
   
   section#contact {
-    background: url('../images/book2.jpg') no-repeat center center/cover;
+    background: url('https://user-images.githubusercontent.com/85494225/121175052-eb95b180-c85a-11eb-9794-96175d338ef3.jpg') no-repeat center center/cover;
     
     
   }
