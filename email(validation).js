@@ -15,7 +15,7 @@ return false;
 }
 }
 
-function CheckPassword(inputtxt) 
+function CheckPassword(inputtxt)
 { 
 var passw=  /^[A-Za-z]\w{7,14}$/;
 if(inputtxt.value.match(passw)) 
