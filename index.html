@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="table.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="centeravatar.css">
+    <link rel="stylesheet" href="pass(validation).css">
 </head>
 <body onload="document.form1.text1.focus()">
     <div class="topnav"></div>
@@ -50,12 +51,20 @@ class="close" title="Close Modal">&times;</span>
 
     <div class="container">
       <label for="email"><b>email address</b></label>
-      <input type="email1" placeholder="Enter email address" name="email address" required>
+      <input type="email" placeholder="Enter email address" name="email address" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit">Login</button>
+      <input type="password" placeholder="Enter Password" name="psw" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+      <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+      <form id="form1" action="/action_page.php">
+      <button type="submit" onclick="myFunction()" value="Submit">Login</button>
+      </form>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember
       </label>
