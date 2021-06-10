@@ -1,3 +1,7 @@
 function myFunction() {
     document.getElementById("frm1").reset();
   }
+
+  //function myFunction() {
+ //   document.getElementById("form1").reset(log);
+  //}
